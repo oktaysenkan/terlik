@@ -1,0 +1,25 @@
+{
+  "name": "terlik",
+  "version": "0.0.1",
+  "description": "Command line logger for redux.",
+  "main": "dist/terlik.js",
+  "types": "dist/terlik.d.ts",
+  "scripts": {
+    "dev": "npm run build && node dist/terlik.js",
+    "build": "tsc",
+    "test": "jest --coverage --runInBand",
+    "prepublish": "tsc"
+  },
+  "keywords": [
+    "redux",
+    "cli",
+    "logger"
+  ],
+  "author": "Oktay Şenkan <oktay.senkan@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "colors": "^1.4.0",
+    "moment": "^2.24.0"
+  }
+}
